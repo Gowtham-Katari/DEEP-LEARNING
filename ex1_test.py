@@ -1,5 +1,5 @@
 
-import smit as name_point
+import gowtham as name_point
 
 def test_length_greater_than_one():
     assert len(name_point.hi_my_name_is()) > 1
@@ -17,7 +17,7 @@ def test_output_is_alphanumeric():
     assert name_point.hi_my_name_is().isalnum()
 
 def test_output_has_correct_length():
-    assert len(name_point.hi_my_name_is()) == 7
+    assert len(name_point.hi_my_name_is()) == 6
 
 def test_output_starts_with_specific_letter():
     assert name_point.hi_my_name_is().startswith("G")
